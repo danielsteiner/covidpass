@@ -1,0 +1,35 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Daniel Steiner">
+        <title>NIU Dienstplan Export | Disclaimer</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/signin.css" rel="stylesheet">
+    </head>
+    <body class="d-flex flex-column">
+        <main class="py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="card">
+                            <div class="card-header">Disclaimer, Impressum & Co.</div>
+                            <div class="card-body">
+                                <h3>Allgemeines zu diesem Tool</h3>
+                                <p>                    <p>Dieses Skript erstellt <a href="https://icalendar.org/">iCal Datei</a>. Diese Datei kann in jedem Kalenderprogramm aboniert werden. Dadurch, hat man seinen Diensplan auch ohne einen Blick ins NIU zu werfen im Auge.</p>
+                                <p>Um dies zu ermöglichen, müssen beim ersten Verwenden sowohl der NIU Benutzername als auch das Passwort angegeben werden - keine Sorge, diese Daten werden nie gespeichert und sind auch in der URL zum abonieren des Kalenders nicht direkt ersichtlich. Die Daten werden mit dem <a href="https://de.wikipedia.org/wiki/Base64">Base64</a> Verfahren enkodiert und an die URL angehängt. Im weiteren Verlauf, werden sie vom Skript wieder dekodiert und das Skript meldet sich im NIU an. Im nächsten Schritt, wird die Startseite vom NIU automatisch ausgelesen und der HTML Quellcode der Seite wird nach geplanten / fixierten Diensten der nächsten 2 Wochen im Rettungsdienst sowie fixierten Ambulanzen der nächsten 4 Wochen durchsucht. Diese Daten werden dann in das iCal Format umgewandelt und als iCalendar Datei ausgegeben.</p>
+                                <p>Du kannst dir jederzeit den Quellcode dieses Tools auf <a href="https://github.com/danielsteiner/dutyschedule">Github</a> ansehen.</p>
+                                <h2 class="h4 mb-3 font-weight-normal">Opt-In zum Datenlogging für Debugzwecke</h2>
+                                <p>Um Fehler zu erkennen und zu beheben, kannst du beim Login "Opt-In für Datenlogging" auswählen. Sollte dieser Eintrag gesetzt sein, wird der HTML Quellcode deiner geplanten / fixierten Dienste sowie der Ambulanzen in Logdateien abgespeichert. Solltest du das Mitloggen erlauben, erhälst du auf der zweiten Seite, auf der du deinen persönlichen Kalenderlink erhältst einen zweiten Link mit dem du selbst auch die mitgeloggten Daten einsehen kannst. Diese sind über einen einmalig generierten Token auf <a href="logs.php">dieser Seite</a> für dich (und mich) einsehbar. Sonst hat niemand Zugriff auf deine Daten. </p>
+                                <h2 class="h4 mb-3 font-weight-normal">Kontaktdaten</h2>
+                                <p>Solltest du Fragen, Wünsche, Beschwerden oder Fehlermeldungen haben kannst du mir jederzeit <a href="mailto:daniel.steiner@w.roteskreuz.at">eine Email</a> schicken.</p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
