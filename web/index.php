@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 </head>
 <body class="text-center">
-<a class="github-fork-ribbon" href="https://github.com/danielsteiner/grueneswallet" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+<a class="github-fork-ribbon" href="https://github.com/danielsteiner/covidpass" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <form class="form-signin" method="post" action="/process_certificate.php" enctype="multipart/form-data">
         <h1 class="h3 mb-3 font-weight-normal">Wallet Pass generator für den Grünen Pass</h1>
         <p>Mit diesem Tool können Sie sich selbst ein ".pkpass" file generieren, welches in Apple Wallet importiert werden kann.</p>
