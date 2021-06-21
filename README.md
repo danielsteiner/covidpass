@@ -35,5 +35,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+
+## Final Note
+There still is a lot of cleanup to do. 
 ## License
 [Unlicense](https://unlicense.org/)
