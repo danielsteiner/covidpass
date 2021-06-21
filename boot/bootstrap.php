@@ -22,8 +22,8 @@ if(!function_exists("dd")) {
 }
 
 
-$log = new Logger('dst-gruenerpass');
-$error = new Logger("dst-gruenerpass.error");
+$log = new Logger('covidpass');
+$error = new Logger("covidpass.error");
 
 $log->pushHandler(new StreamHandler(__DIR__."/../logs/log_".date('y-m-d').".log", Logger::INFO));
 $error->pushHandler(new StreamHandler(__DIR__."/../logs/errors_".date('y-m-d').".log", Logger::ERROR));
