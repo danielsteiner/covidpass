@@ -30,6 +30,9 @@ Please follow the usage part of https://github.com/flexible-agency/php-pkpass to
 ## Usage
 Upload certificate, download passfile. 
 
+## Important notice
+I have not yet been fully able to test this tool as I have no apple developer account and thus can't generate PKPASS files. The code itself _should_ work, but I can not guarantee it. Use at your own risk. 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
